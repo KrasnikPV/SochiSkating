@@ -3,7 +3,7 @@ public class SingleSkater extends FigureSkater {
 	private long technicalScore;
 	private long programScore;
 	
-	SingleSkater (Country country) {
+	public SingleSkater (Country country) {
 		super (country, Math.random()%1);
 	}
 	

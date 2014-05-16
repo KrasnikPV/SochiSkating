@@ -6,7 +6,7 @@ public class Competition {
 	
 	public JudgeTeam judgeTeam;
 	
-	Competition () {
+	public Competition () {
 		fFinish = false;
 		this.table = new ArrayList<Team>();
 	}

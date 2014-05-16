@@ -9,19 +9,19 @@ abstract class Human
 		return country.name();
 	}
 
-	Human (int age, String name, Country country)
+	public Human (int age, String name, Country country)
 	{
 		this.age = age;
 		this.name = name;
 		this.country = country;
 	}
-	Human (int age, Country country)
+	public Human (int age, Country country)
 	{
 		this.age = age;
 		this.name = NameGen.n();
 		this.country = country;
 	}
-	Human (Country country)
+	public Human (Country country)
 	{
 		this.age = 15 + Math.round(Math.random()%10);
 		this.name = NameGen.n();

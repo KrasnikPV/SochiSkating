@@ -13,7 +13,7 @@ public class Team {
 	public long scoreFinalPrimary;
 	public long scoreFinalSecondary; 
 
-	Team (Country country){
+	public Team (Country country){
 		this.country = country;
 		this.men = new SingleSkater(country);
 		this.women = new SingleSkater(country);

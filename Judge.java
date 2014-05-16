@@ -9,7 +9,7 @@ public class Judge extends Human{
 		this.mood = mood;
 	}
 	
-	Judge (int age, String name, Country country) {
+	public Judge (int age, String name, Country country) {
 		super (age, name, country);
 	}
 

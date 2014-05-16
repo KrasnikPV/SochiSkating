@@ -1,7 +1,7 @@
 public class FigureSkater extends Human{
 	protected double exp;
 	
-	FigureSkater (Country country, double exp) {
+	public FigureSkater (Country country, double exp) {
 		super(country);
 		this.exp = exp; 
 	}

@@ -2,7 +2,7 @@
 public class JudgeTeam {
 	private final Judge[] judges = new Judge[5];
 	
-	JudgeTeam (Judge j1, Judge j2, Judge j3, Judge j4, Judge j5) {
+	public JudgeTeam (Judge j1, Judge j2, Judge j3, Judge j4, Judge j5) {
 		this.setJudges (j1, j2, j3, j4, j5);
 		for (int i=0; i<=4; i++) {
 			this.judges[i].setMood(Math.random()%5.0); 

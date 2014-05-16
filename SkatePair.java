@@ -48,7 +48,7 @@ public class SkatePair {
 		return 	firstSkater.getExp() + secondSkater.getExp();
 	}
 	
-	SkatePair (Country country){
+	public SkatePair (Country country){
 		firstSkater = new FigureSkater(country, Math.random()%1);
 		secondSkater = new FigureSkater(country, Math.random()%1);
 
